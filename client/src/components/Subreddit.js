@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = '/api';
 
 function Subreddit() {
   const { name } = useParams();
